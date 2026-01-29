@@ -61,11 +61,13 @@ Analyzed and visualized top contributing features
 Saved trained Random Forest model using Joblib
 
 📈 Results
+
 Logistic Regression performed reasonably but struggled with fraud recall
 Random Forest significantly improved fraud detection recall and F1-score
 Ensemble learning proved more effective for imbalanced datasets
 
 📉 Feature Importance
+
 Random Forest feature importance analysis highlights the most influential transaction features contributing to fraud detection. This helps in understanding model decisions and improving transparency.
 
 📦 Project Structure
@@ -84,6 +86,7 @@ credit-card-fraud-detection-rf/
 └── report.pdf
 
 🚀 How to Run
+
 Clone the repository
 Install dependencies:
 pip install -r requirements.txt
@@ -91,10 +94,12 @@ Run the notebook or Python script
 View results and saved model
 
 📌 Key Learnings
+
 Importance of choosing correct evaluation metrics
 Handling imbalanced datasets effectively
 Understanding ensemble learning advantages
 Practical fraud detection pipeline implementation
 
 ✅ Conclusion
+
 This project demonstrates a complete end-to-end machine learning workflow for fraud detection. The Random Forest model outperforms the baseline and proves suitable for real-world imbalanced classification problems.
