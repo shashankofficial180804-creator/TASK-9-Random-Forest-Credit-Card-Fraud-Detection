@@ -71,6 +71,7 @@ Ensemble learning proved more effective for imbalanced datasets
 Random Forest feature importance analysis highlights the most influential transaction features contributing to fraud detection. This helps in understanding model decisions and improving transparency.
 
 📦 Project Structure
+
 credit-card-fraud-detection-rf/
 │
 ├── data/
