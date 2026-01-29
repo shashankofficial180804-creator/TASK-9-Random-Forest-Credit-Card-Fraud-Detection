@@ -8,25 +8,30 @@ This project detects fraudulent credit card transactions using Random Forest on 
 Credit Card Fraud Detection using Random Forest
 
 📌 Overview
+
 Credit card fraud is a major financial risk due to the large number of daily digital transactions. This project focuses on detecting fraudulent credit card transactions using machine learning, with special emphasis on handling highly imbalanced data. A Random Forest ensemble model is used and compared against a Logistic Regression baseline.
 
 🎯 Objective
+
 Detect fraudulent transactions accurately
 Handle extreme class imbalance effectively
 Compare baseline and ensemble learning models
 Evaluate models using appropriate metrics (Precision, Recall, F1-score)
 
 📊 Dataset
+
 Source: Kaggle Credit Card Fraud Dataset
 Transactions: 284,807
 Fraud Cases: 492 (highly imbalanced)
 
 Features:
+
 V1 to V28 (PCA-transformed features)
 Time, Amount
 Class (Target: 0 = Non-Fraud, 1 = Fraud)
 
 🛠 Tools & Technologies
+
 Python
 Pandas, NumPy
 Scikit-learn
@@ -35,28 +40,23 @@ Joblib
 GitHub
 
 🧠 Methodology
+
 1. Data Loading & Exploration
 Loaded dataset and analyzed class distribution
 Identified severe class imbalance
-
 2. Preprocessing
 Separated features and target variable
 Used stratified train-test split to preserve fraud ratio
-
 3. Baseline Model
 Trained Logistic Regression for performance comparison
-
 4. Ensemble Model
 Trained Random Forest with 100 decision trees
 Leveraged ensemble learning to improve minority class detection
-
 5. Evaluation
 Used Precision, Recall, and F1-score
 Accuracy was avoided due to class imbalance
-
 6. Feature Importance
 Analyzed and visualized top contributing features
-
 7. Model Saving
 Saved trained Random Forest model using Joblib
 
